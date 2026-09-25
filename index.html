@@ -162,4 +162,168 @@
 
 </body>
 
+</html><!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Trung Thu </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+<body>
+
+
+    <!-- ==============================
+         BỨC TRANH NỀN
+    =============================== -->
+
+    <div id="scene">
+
+        <img
+            id="background"
+            src="./images/background.png"
+            alt=""
+        >
+
+        <img
+            id="stars"
+            src="./images/stars.png"
+            alt=""
+        >
+
+        <img
+            id="clouds-back"
+            src="./images/clouds-back.png"
+            alt=""
+        >
+
+        <img
+            id="moon"
+            src="./images/moon.png"
+            alt=""
+        >
+
+        <img
+            id="clouds-front"
+            src="./images/clouds-front.png"
+            alt=""
+        >
+
+    </div>
+
+
+    <!-- ==============================
+         LINH KHÍ
+    =============================== -->
+
+    <div id="particles"></div>
+
+
+    <!-- ==============================
+         LỒNG ĐÈN
+    =============================== -->
+
+    <div id="lantern-container"></div>
+
+
+    <!-- ==============================
+         TIÊU ĐỀ
+    =============================== -->
+
+    <div class="title">
+
+        <h1>
+            ĐÊM TRUNG THU
+        </h1>
+
+        <p>
+            ✨ Chạm vào lồng đèn để nhận lời chúc ✨
+        </p>
+
+    </div>
+
+
+    <!-- ==============================
+         HỘP LỜI CHÚC
+    =============================== -->
+
+    <div
+        id="wish-box"
+        class="wish-box"
+    >
+
+        <div class="wish-content">
+
+            <button
+                id="close-wish"
+                class="close-btn"
+            >
+                ×
+            </button>
+
+
+            <div
+                id="wish-icon"
+            >
+                🏮
+            </div>
+
+
+            <h2
+                id="wish-title"
+            >
+                🌕 Chúc Mừng Trung Thu 🌕
+            </h2>
+
+
+            <p
+                id="wish-text"
+            >
+            </p>
+
+
+            <p class="wish-decoration">
+                ✨ 🌙 🏮 🌙 ✨
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- ==============================
+         THREE.JS
+    =============================== -->
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three":
+            "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js"
+        }
+    }
+    </script>
+
+
+    <script
+        type="module"
+        src="script.js"
+    ></script>
+
+
+</body>
+
 </html>
